@@ -13,7 +13,8 @@ The data are sent in the database and you can click the button in the right side
 
 ### List
 
-In the table will be saved the data of guest and you can also delete them. I sorted the table by ascending a date and a time.
+First table appears data by months, sum of orders and it will be shown only for last 3 months.
+In the table will be saved the data of guests and you can also delete them. I sorted the table by descending a date and a time.
 
 ![](screenshots/list.png)
 
