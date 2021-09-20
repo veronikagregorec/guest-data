@@ -4,7 +4,7 @@ Created with HTML, CSS, JavaScript, PHP and MySQL. I made a desktop, laptop, tab
 
 ## Description
 
-Demo: <a href="http://guestdata.epizy.com/index.html">Guest Data</a>
+Demo: <a href="https://gregorec.github.io/guest-data">Guest Data</a>
 
 ### Input fields
 
