@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Guest Data</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="fontawesome/webfonts">
+    <link rel="icon" href="logo/favicon.png" type="image/gif" sizes="16x16">
+
+</head>
+
+<body>
+    <div class="img">
+        <div class="wrap-upper">
+            <div class="wrap">
+                <form id="form" action="database.php" method="POST" autocomplete="off">
+
+                    <h1>Guest data</h1>
+
+                    <input type="text" name="eCode" placeholder="Employee code" class="koda"
+                        oninput="this.value=this.value.replace(/[^0-9]/g,'');" maxlength="5" required />
+
+                    <input type="text" style="text-transform: capitalize;" name="name" placeholder="Name" class="ime"
+                        required />
+
+                    <input type="text" name="phoneNumber" placeholder="Phone number" class="tel" required />
+
+                    <input type=" text" placeholder="Number of guests" name="guestNumber"
+                        oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="gost" required>
+
+                    <div style="display: flex;">
+                        <input type="date" id="date" name="date" class="datum" required />
+                        <input type="time" name="time" class="cas" required />
+                    </div>
+
+                    <input type="submit" name="poslji" value="Send" class="poslji" />
+                </form>
+            </div>
+
+            <div class="image">
+                <a href="user.php" class="izpis">List</i></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var date = new Date();
+        var day = date.getDate();
+        var month = date.getMonth() + 1;
+        var year = date.getFullYear();
+        if (month < 10) month = "0" + month;
+        if (day < 10) day = "0" + day;
+        var today = year + "-" + month + "-" + day;
+        document.getElementById('date').value = today;
+    </script>
+</body>
+
+</html>
