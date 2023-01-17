@@ -1,6 +1,6 @@
 # Guest Data
 
-Created with HTML, CSS, JavaScript, PHP and MySQL. I made a desktop, laptop, tablet and smartphone version.
+Created with HTML5, CSS3, JavaScript, PHP and MySQL. I made a desktop, laptop, tablet and smartphone version.
 
 ## Description
 
