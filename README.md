@@ -1,8 +1,8 @@
 # Guest Data
 
-Created with HTML5, CSS3, JavaScript, PHP and MySQL. I made a desktop, laptop, tablet and smartphone version.
+The employees at the restaurant keep the data about the guests' bookings.
 
-## Description
+## Screenshots
 
 ### Input fields
 
@@ -25,3 +25,5 @@ will be appeared. If you want to return back delete the search field and press e
 entered data.
 
 ![](screenshots/search.png)
+
+[Back to the top](#guest-data)
