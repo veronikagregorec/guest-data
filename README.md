@@ -2,6 +2,10 @@
 
 The employees at the restaurant keep the data about the guests' bookings.
 
+## Browser Compatibility
+
+All of the latest versions of <b>Chrome</b>, <b>Firefox</b>, <b>Edge</b> and <b>Opera</b> browsers are supported.
+
 ## Screenshots
 
 ### Input fields
