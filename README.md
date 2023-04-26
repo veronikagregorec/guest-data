@@ -6,6 +6,20 @@ The employees at the restaurant keep the data about the guests' bookings.
 
 All of the latest versions of <b>Chrome</b>, <b>Firefox</b>, <b>Edge</b> and <b>Opera</b> browsers are supported.
 
+## Installation
+
+#### Steps to install
+
+<ol>
+  <li><a href="https://github.com/veronikagregorec/angular-counter/tree/main/src/app" target="_blank">download XAMPP</a></li>
+  <li>download the folder</li>
+  <li>this folder add into C:\xampp\htdocs</li>
+  <li>go to http://localhost/phpmyadmin</li>  
+  <li>create new database and call it database</li>
+  <li>Import file database.sql</li>
+  <li>access localhost/guest-data-main on your browser</li>
+</ol>
+
 ## Screenshots
 
 The website is made for booking in a restaurant, so I made input fields for enter the guest data which will be managed by employees with their code. 
