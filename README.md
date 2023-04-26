@@ -11,7 +11,7 @@ All of the latest versions of <b>Chrome</b>, <b>Firefox</b>, <b>Edge</b> and <b>
 #### Steps to install
 
 <ol>
-  <li><a href="https://www.apachefriends.org/download.html" target="_blank">download XAMPP</a></li>
+  <li>download<a href="https://www.apachefriends.org/download.html" target="_blank">XAMPP</a></li>
   <li>download the folder</li>
   <li>folder add into C:\xampp\htdocs</li>
   <li>access http://localhost/phpmyadmin</li>  
