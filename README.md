@@ -22,7 +22,7 @@ All of the latest versions of <b>Chrome</b>, <b>Firefox</b>, <b>Edge</b> and <b>
 
 ## Screenshots
 
-The website is made for booking in a restaurant, so I made input fields for enter the guest data which will be managed by employees with their code. 
+The website is made for booking in a restaurant, so I made input fields for enter the guest data which will be managed by employees. 
 The data are sent in the database and you can click the button in the right side to see a list of saved data.
 
 ![](screenshots/front.png)
